@@ -1,0 +1,16 @@
+  
+*passgen.txt*
+
+==============================================================================
+Introduction                                           *passgen-introduction*
+
+This plugin to generate passwords.
+
+==============================================================================
+Usage                                                        *passgen-usage*
+
+This plugin to generate passwords.
+
+Example: >
+
+    :PASSGEN 10
