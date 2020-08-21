@@ -1,7 +1,7 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-py3file <sfile>:h:h/passgen.py
+py3file <sfile>:h:h/python3/passgen.py
 python3 import vim
 
 function! passgen#passgen(size)
