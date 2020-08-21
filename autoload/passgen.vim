@@ -5,7 +5,7 @@ pyfile <sfile>:h:h/passgen.py
 python import vim
 
 function! passgen#generate_password(size)
-  python passgenvim_generate_password(vim.eval('a:sizse'))
+  python3 passgenvim_generate_password(vim.eval('a:sizse'))
 endfunction
 
 let &cpo = s:save_cpo
